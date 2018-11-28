@@ -27,6 +27,9 @@ python train.py
 cd spiders/prediction
 python prediction.py -i ./data/20181128094323.jpg -m ../classify.model
 
+## 更多介绍
+https://blog.csdn.net/lucky404/article/details/84581885
+
 
 
 
