@@ -17,14 +17,17 @@ linux
 识别的类型有三种：猫，狗，马
 项目运行需要解压 downloads 目录下面的 test.tar.gz 和 train.tar.gz
 需要安装依赖包
+
 pip install -r requirements.txt
 
 ## 运行项目
 cd spiders/recognition/train
+
 python train.py
 
 ## 识别图像
 cd spiders/prediction
+
 python prediction.py -i ./data/20181128094323.jpg -m ../classify.model
 
 ## 更多介绍
