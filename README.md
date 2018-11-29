@@ -16,8 +16,10 @@ linux
 ## 训练/测试数据下载
 链接：https://pan.baidu.com/s/1f1N01Qv5N6UouiOJS4ZCDg 
 提取码：ycks 
+
 链接：https://pan.baidu.com/s/1BSPDaqoQv_7kQifA9rbzMA 
 提取码：k7ej 
+
 下载完成后需要放到downloads 目录下面解压
 
 ## 使用keras + tensorflow + cpu 进行图像识别
