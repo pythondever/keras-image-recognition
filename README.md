@@ -13,9 +13,15 @@ Python 3.4.5
 ## os
 linux
 
+## 训练/测试数据下载
+链接：https://pan.baidu.com/s/1f1N01Qv5N6UouiOJS4ZCDg 
+提取码：ycks 
+链接：https://pan.baidu.com/s/1BSPDaqoQv_7kQifA9rbzMA 
+提取码：k7ej 
+下载完成后需要放到downloads 目录下面解压
+
 ## 使用keras + tensorflow + cpu 进行图像识别
 识别的类型有三种：猫，狗，马
-项目运行需要解压 downloads 目录下面的 test.tar.gz 和 train.tar.gz
 需要安装依赖包
 
 pip install -r requirements.txt
