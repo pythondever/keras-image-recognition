@@ -59,7 +59,7 @@ def run(train_path, test_path):
     score = model.evaluate(test_matrix, test_label, batch_size=32)
     print("训练完毕 模型评分 %s" % score)
     model.save(save_path)
-    # plot_model(model, to_file='model.png')
+    plot_model(model, to_file='model.png')
     plt.style.use("ggplot")
     plt.figure()
     n = epochs
