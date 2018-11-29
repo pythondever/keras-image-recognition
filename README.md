@@ -27,6 +27,7 @@ linux
 需要安装依赖包
 
 pip install -r requirements.txt
+
 模型的可视化需要安装graphviz
 
 sudo apt-get install graphviz
