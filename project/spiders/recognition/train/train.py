@@ -1,3 +1,4 @@
+import os
 import sys
 import smtplib
 sys.path.append("../")
@@ -45,7 +46,8 @@ def run(train_path, test_path):
     width_shift_range=0.2,
     height_shift_range=0.2,
     horizontal_flip=True)
-    model.load_weights("checkpoint.chk")
+    if os.path.exists('checkpoint.chk'):
+        model.load_weights("checkpoint.chk")
     result = model.fit_generator(
         datagen.flow(train_matrix, train_label, batch_size=batch_size), 
         validation_data=(test_matrix, test_label),
