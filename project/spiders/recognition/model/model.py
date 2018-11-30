@@ -24,15 +24,16 @@ class ImageModel:
         else:
             shape = (width, heigth, depth)
 
-        model.add(Conv2D(20, (3, 3), padding="same", input_shape=shape))
+        model.add(Conv2D(20, (3, 3), padding="same", input_shape=shape, name='filter1'))
+        model.add(Activation("relu"))
+        model.add(MaxPooling2D(strides=(2, 2)))
+        model.add(Dropout(0.5))
+        # ---------------------------------------------------------------
+        model.add(Conv2D(30, (3, 3), padding="same", name='filter2'))
         model.add(Activation("relu"))
         model.add(MaxPooling2D(strides=(2, 2)))
         # ---------------------------------------------------------------
-        model.add(Conv2D(30, (3, 3), padding="same"))
-        model.add(Activation("relu"))
-        model.add(MaxPooling2D(strides=(2, 2)))
-        # ---------------------------------------------------------------
-        model.add(Conv2D(50, (5, 5), padding="same"))
+        model.add(Conv2D(50, (5, 5), padding="same", name='filter3'))
         model.add(Activation("relu"))
         model.add(MaxPooling2D(strides=(2, 2)))
         model.add(Dropout(0.5))
