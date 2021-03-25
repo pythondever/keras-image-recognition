@@ -59,7 +59,7 @@ pyparsing==2.2.0
 PySide==1.2.4
 python-dateutil==2.7.3
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.4
 queuelib==1.5.0
 requests==2.19.1
 scipy==1.1.0
