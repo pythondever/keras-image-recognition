@@ -35,7 +35,7 @@ lxml==4.2.5
 Markdown==2.6.11
 matplotlib==2.2.3
 mccabe==0.6.1
-numpy==1.14.5
+numpy==1.22.0
 opencv-python==3.4.2.17
 parsel==1.5.0
 parso==0.3.1
